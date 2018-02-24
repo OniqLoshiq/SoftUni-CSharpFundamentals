@@ -18,7 +18,7 @@ class Program
         {
             try
             {
-                string[] tokens = cmdInput.Split(';');
+                string[] tokens = cmdInput.Split(new[] { ';' }, StringSplitOptions.RemoveEmptyEntries);
                 string cmd = tokens[0];
                 string teamName = tokens[1];
 
