@@ -25,8 +25,6 @@ namespace _02_Collection
                         case "HasNext": Console.WriteLine(listyIterator.HasNext()); break;
                         case "Print": listyIterator.Print(); break;
                         case "PrintAll": listyIterator.PrintAll(); break;
-                        default:
-                            throw new InvalidOperationException("Invalid Operation!");
                     }
                 }
                 catch (Exception e)
